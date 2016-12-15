@@ -13,6 +13,9 @@
 		041598861E02B499004F3D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041598841E02B499004F3D35 /* Main.storyboard */; };
 		041598881E02B499004F3D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041598871E02B499004F3D35 /* Assets.xcassets */; };
 		0415988B1E02B499004F3D35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041598891E02B499004F3D35 /* LaunchScreen.storyboard */; };
+		041598951E02B5E8004F3D35 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 041598941E02B5E8004F3D35 /* UIButton+ImageTitleSpacing.m */; };
+		041598981E02C90F004F3D35 /* YYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 041598971E02C90F004F3D35 /* YYButton.m */; };
+		0415989B1E02C9A0004F3D35 /* UIView+TSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415989A1E02C9A0004F3D35 /* UIView+TSExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		041598871E02B499004F3D35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0415988A1E02B499004F3D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0415988C1E02B499004F3D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041598931E02B5E8004F3D35 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		041598941E02B5E8004F3D35 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		041598961E02C90F004F3D35 /* YYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYButton.h; sourceTree = "<group>"; };
+		041598971E02C90F004F3D35 /* YYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYButton.m; sourceTree = "<group>"; };
+		041598991E02C9A0004F3D35 /* UIView+TSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TSExtension.h"; sourceTree = "<group>"; };
+		0415989A1E02C9A0004F3D35 /* UIView+TSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TSExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,9 @@
 		0415987A1E02B499004F3D35 /* YYButton */ = {
 			isa = PBXGroup;
 			children = (
+				041598921E02B5C5004F3D35 /* Category */,
+				041598961E02C90F004F3D35 /* YYButton.h */,
+				041598971E02C90F004F3D35 /* YYButton.m */,
 				0415987E1E02B499004F3D35 /* AppDelegate.h */,
 				0415987F1E02B499004F3D35 /* AppDelegate.m */,
 				041598811E02B499004F3D35 /* ViewController.h */,
@@ -77,6 +89,17 @@
 				0415987C1E02B499004F3D35 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		041598921E02B5C5004F3D35 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				041598991E02C9A0004F3D35 /* UIView+TSExtension.h */,
+				0415989A1E02C9A0004F3D35 /* UIView+TSExtension.m */,
+				041598931E02B5E8004F3D35 /* UIButton+ImageTitleSpacing.h */,
+				041598941E02B5E8004F3D35 /* UIButton+ImageTitleSpacing.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041598981E02C90F004F3D35 /* YYButton.m in Sources */,
+				0415989B1E02C9A0004F3D35 /* UIView+TSExtension.m in Sources */,
 				041598831E02B499004F3D35 /* ViewController.m in Sources */,
 				041598801E02B499004F3D35 /* AppDelegate.m in Sources */,
+				041598951E02B5E8004F3D35 /* UIButton+ImageTitleSpacing.m in Sources */,
 				0415987D1E02B499004F3D35 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
